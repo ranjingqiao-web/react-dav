@@ -1,0 +1,71 @@
+.welcome {
+    height: 328px;
+    background: url(../images/yay.jpg) no-repeat center 0;
+    background-size: 388px 328px;
+  }
+  .wanRow{
+    display: flex;
+    flex-direction: row;  
+ }
+  .wanRowCenter{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+ }
+  .wanRowCenterbetween{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+  }
+  .wanCol{
+    display: flex;
+    flex-direction: column;  
+ }
+ .wanfontWeightbold{
+     font-weight: bold;
+ }
+ .wanFontSize12{
+     font-size: 12px;
+ }
+ .wanFontSize13{
+    font-size: 13px;
+}
+.wanFontSize14{
+    font-size: 14px;
+}
+.wanFontSize15{
+    font-size: 15px;
+}
+.wanFontSize16{
+    font-size: 16px;
+}
+.wanFontSize17{
+    font-size: 17px;
+}
+.wanFontSize18{
+    font-size: 18px;
+}
+.wanFontSize19{
+    font-size: 19px;
+}
+.wanFontSize20{
+    font-size: 20px;
+}
+.wanFontSize21{
+    font-size: 21px;
+}
+.wanFontSize22{
+    font-size: 22px;
+}
+
+.rowcontainer{ 
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 24px;
+    column-gap: 24px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    
+}
